@@ -2,7 +2,8 @@ name: mkdocs
 on:
   push:
       branches:
-  - main jobs:
+          - main 
+jobs:
     deploy:
       runs-on: ubuntu-latest
       steps:
