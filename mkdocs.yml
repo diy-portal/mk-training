@@ -1,0 +1,19 @@
+site_name: Tech Writer Days
+nav:
+  - Как запустить свой первый портал?:
+    - Вот так: my-first-portal.md
+  - Дом: index.md
+theme:
+  name: material
+  logo: TWD_logo.png
+  favicon: TWD_favicon.png
+  features:
+    - navigation.tabs
+extra_css:
+  - material-styles.css
+markdown_extensions:
+  - pymdownx.superfences
+plugins:
+  - search:
+      lang:
+        - ru
